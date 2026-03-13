@@ -1,2 +1,11 @@
 # pdp
-Personal Development Plan tailoring application
+
+Resume Tailoring Engine: инструмент декомпозиции опыта, дополнения ATS-слоем и композиции резюме под конкретную вакансию.
+
+## Что уже добавлено
+- Концепт и архитектурная спецификация EPIC «Декомпозиция → Дополнение → Композиция».
+- Доменная модель (опыт, доказательства, навыки, требования, gap matrix, артефакты резюме).
+- Логика truth-first и режимы `strict_truth` / `needs_confirm`.
+- Формула ATS score и принципы explainability.
+
+Подробнее: `docs/resume-tailoring-engine.md`.
